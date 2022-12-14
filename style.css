@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222222;
+}
+
+/* header */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+}
+
+header div {
+  display: flex;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  padding: 0rem 1.2rem;
+  text-shadow: red 1.5px 0 0, red 0 1.5px 0, red -1.5px 0 0, red 0 -1.5px 0;
+}
+
+/* nav */
+nav ul {
+  display: flex;
+  list-style-type: none;
+  /* flex-wrap: wrap; */
+}
+
+nav ul li {
+  /* flex-direction: column; */
+}
+
+header a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #ffffff;
+  padding: 1rem 1.2rem;
+}
+
+header a:hover {
+  color: red;
+  background-color: #444444;
+  transition: all 0.3s ease;
+}
+
+/* main */
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main article {
+  /* min-height: 450px; */
+  min-height: 50vh;
+  padding: 3rem 2rem;
+  background-image: url(https://s3-media0.fl.yelpcdn.com/bphoto/X3idK-Z-U7Y1B68K5DShLw/o.jpg);
+  background-position: top;
+  background-size: cover;
+  /* margin: 0px 10px; */
+  /* border-radius: 20px; */
+}
+
+/* main section {
+  min-height: 30vh;
+  background-color: antiquewhite;
+} */
+
+/* footer */
+footer section {
+  min-height: 30vh;
+  color: #ffffff;
+  font-size: 1.25rem;
+}
+
+footer section {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  align-items: center;
+}
+
+.footer-left p {
+  padding: 5px;
+}
+
+.footer-right table {
+  text-align: center;
+}
+.footer-right tr th,
+tr td {
+  padding: 0px 5px;
+}
+.footer-right th {
+  padding-bottom: 5px;
+}
+
+#madeSign {
+  min-height: 5vh;
+  /* background-color: antiquewhite; */
+  background-color: white;
+  text-align: center;
+  padding: 0.5rem;
+  font-style: italic;
+  color: black;
+}
+
+/* 
+@media screen and (max-width: 480px) {
+
+  header {
+    flex-direction: column;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header img {
+    width: 25px;
+  }
+
+  nav ul {
+
+  }
+
+  nav ul li a {
+    font-size: 1rem;
+  }
+} */
