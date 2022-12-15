@@ -20,6 +20,7 @@ header {
 
 header div {
   display: flex;
+  align-items: center;
 }
 
 header h1 {
@@ -114,11 +115,13 @@ tr td {
   color: black;
 }
 
-/* 
 @media screen and (max-width: 480px) {
-
   header {
     flex-direction: column;
+  }
+
+  header div {
+    margin-bottom: 1rem;
   }
 
   header h1 {
@@ -126,14 +129,19 @@ tr td {
   }
 
   header img {
-    width: 25px;
+    width: 40px;
   }
 
   nav ul {
-
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    text-align: center;
   }
 
   nav ul li a {
     font-size: 1rem;
+    padding: 10px 100px;
+    border-top: 1px solid #444444;
   }
-} */
+}
