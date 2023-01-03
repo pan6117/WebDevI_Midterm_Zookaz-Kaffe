@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Panpan Cafe</title>
+    <title>Zookaz Kaffe</title>
+    <base target="_blank" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,21 +17,22 @@
   <body>
     <header>
       <div>
-        <img width="50px" src="./images/campfire.png" alt="Logo" />
+        <img width="50px" src="images/Logo-Screenshot.jpg" alt="Logo" />
+        <!-- <img width="50px" src="./images/campfire.png" alt="Logo" /> -->
         <h1>Zookaz Kaffe</h1>
       </div>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">xxx</a></li>
+          <li><a href="#" target="_self">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="#contact" target="_self">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
       <article class="main-Picture">
-        <h2>Come to Zookaz Haveing Wonderful Time!</h2>
+        <h2>Have a Great Time at Zookaz!</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, qui.
           Alias pariatur magnam quasi, accusantium ipsa nisi dignissimos totam
@@ -38,11 +40,16 @@
           reprehenderit distinctio?
         </p>
       </article>
-      <section></section>
-    </main>
-    <footer>
-      <section>
-        <div class="footer-left">
+
+      <section class="product-Photos">
+        <img src="./images/dripCoffee.jpg" alt="Drip Coffee Photo" />
+        <img src="./images/panini.jpg" alt="Panini Photo" />
+        <img src="./images/muffin.jpg" alt="Muffin Photo" />
+        <img src="./images/soup.jpg" alt="Soup Photo" />
+      </section>
+
+      <section class="contact-block" id="contact">
+        <div class="contact-block-left">
           <p>
             Address : <br />
             2775 Laurel St, Vancouver, BC V6H 0A5
@@ -52,14 +59,14 @@
             (604)876-0089
           </p>
         </div>
-        <div class="footer-right">
+        <div class="contact-block-right">
           <table>
             <tr>
               <th colspan="2">Opening Hours :</th>
             </tr>
             <tr>
               <td>Mon - Fri:</td>
-              <td>9am - 6pm</td>
+              <td>7am - 4pm</td>
             </tr>
             <tr>
               <td>Sat - Sun:</td>
@@ -68,45 +75,45 @@
           </table>
 
           <!-- <table>
-            <tr>
-              <th>Opening Hours:</th>
-              <td>Monday</td>
-              <td>7 a.m.-4 p.m.</td>
-            </tr>
-            <tr>
-              <th></th>
-              <td>Tuesday</td>
-              <td>7 a.m.-4 p.m.</td>
-            </tr>
-            <tr>
-              <th></th>
-              <td>Wednesday</td>
-              <td>7 a.m.-4 p.m.</td>
-            </tr>
-            <tr>
-              <th></th>
-              <td>Thursday</td>
-              <td>7 a.m.-4 p.m.</td>
-            </tr>
-            <tr>
-              <th></th>
-              <td>Friday</td>
-              <td>7 a.m.-4 p.m.</td>
-            </tr>
-            <tr>
-              <th></th>
-              <td>Saturday</td>
-              <td>Closed</td>
-            </tr>
-            <tr>
-              <th></th>
-              <td>Sunday</td>
-              <td>Closed</td>
-            </tr>
-          </table> -->
+          <tr>
+            <th>Opening Hours:</th>
+            <td>Monday</td>
+            <td>7 a.m.-4 p.m.</td>
+          </tr>
+          <tr>
+            <th></th>
+            <td>Tuesday</td>
+            <td>7 a.m.-4 p.m.</td>
+          </tr>
+          <tr>
+            <th></th>
+            <td>Wednesday</td>
+            <td>7 a.m.-4 p.m.</td>
+          </tr>
+          <tr>
+            <th></th>
+            <td>Thursday</td>
+            <td>7 a.m.-4 p.m.</td>
+          </tr>
+          <tr>
+            <th></th>
+            <td>Friday</td>
+            <td>7 a.m.-4 p.m.</td>
+          </tr>
+          <tr>
+            <th></th>
+            <td>Saturday</td>
+            <td>Closed</td>
+          </tr>
+          <tr>
+            <th></th>
+            <td>Sunday</td>
+            <td>Closed</td>
+          </tr>
+        </table> -->
         </div>
       </section>
-      <section id="madeSign">&copy; Zookaz Kaffe, 2022</section>
-    </footer>
+    </main>
+    <footer id="madeSign">&copy; Zookaz Kaffe, 2022</footer>
   </body>
 </html>
