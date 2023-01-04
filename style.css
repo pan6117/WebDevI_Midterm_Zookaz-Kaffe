@@ -13,7 +13,7 @@ body {
   background-color: #222222;
 }
 
-/* header */
+/* Header */
 header {
   display: flex;
   flex-wrap: wrap;
@@ -34,15 +34,10 @@ header h1 {
   text-shadow: red 1.5px 0 0, red 0 1.5px 0, red -1.5px 0 0, red 0 -1.5px 0;
 }
 
-/* nav */
 nav ul {
   display: flex;
   list-style-type: none;
   /* flex-wrap: wrap; */
-}
-
-nav ul li {
-  /* flex-direction: column; */
 }
 
 header a {
@@ -50,6 +45,7 @@ header a {
   font-size: 2rem;
   color: #ffffff;
   padding: 1rem 1.2rem;
+  border-radius: 7px;
 }
 
 header a:hover {
@@ -58,7 +54,7 @@ header a:hover {
   transition: all 0.3s ease;
 }
 
-/* main */
+/* Main */
 main {
   display: flex;
   flex-direction: column;
@@ -76,8 +72,6 @@ main article {
   background-size: cover;
   opacity: 0.9;
   font-style: italic;
-  /* margin: 0px 10px; */
-  /* border-radius: 20px; */
 }
 
 main article h2 {
@@ -85,12 +79,7 @@ main article h2 {
   margin: 0px 0px 10px 0px;
 }
 
-/* main section {
-  min-height: 30vh;
-  background-color: antiquewhite;
-} */
-
-/* product Photos Block */
+/* Product Photos Block */
 .product-Photos {
   display: flex;
   flex-wrap: wrap;
@@ -128,10 +117,9 @@ tr td {
   padding-bottom: 5px;
 }
 
-/* footer */
+/* Footer */
 #madeSign {
   min-height: 5vh;
-  /* background-color: antiquewhite; */
   background-color: white;
   text-align: center;
   padding: 0.5rem;
@@ -139,12 +127,80 @@ tr td {
   color: black;
 }
 
-@media screen and (max-width: 480px) {
+/* Mobile Phones */
+@media screen and (max-width: 380px) {
+  /* Header */
   header {
     flex-direction: column;
   }
 
   header div {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+    padding: 10px 25vw;
+    border-radius: 5px;
+  }
+
+  /* Main */
+  main {
+    font-size: 1rem;
+  }
+
+  main article h2 {
+    font-size: 24px;
+  }
+
+  /* product Photos Block */
+  .product-Photos img {
+    max-width: 100vw;
+  }
+
+  /* Contact Block */
+  .contact-block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-block-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-block-left p {
+    padding: 10px;
+  }
+
+  .contact-block-right table {
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) and (min-width: 381px) {
+  /* Header */
+  header {
+    flex-direction: column;
+  }
+
+  header div {
+    margin-top: 1rem;
     margin-bottom: 1rem;
   }
 
@@ -159,16 +215,71 @@ tr td {
   nav ul {
     flex-direction: column;
     gap: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
     text-align: center;
   }
 
-  nav ul li {
-    padding: 10px 10px;
-    border-top: 1px solid #444444;
+  nav ul li a {
+    font-size: 20px;
+    padding: 10px 25vw;
+    border-radius: 5px;
+  }
+
+  /* Main */
+  main {
+    font-size: 1.25rem;
+  }
+
+  main article h2 {
+    font-size: 30px;
+  }
+
+  /* Product Photos Block */
+  .product-Photos img {
+    max-width: 50vw;
+  }
+
+  /* Contact Block */
+  .contact-block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-block-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-block-left p {
+    padding: 10px;
+  }
+
+  .contact-block-right table {
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+
+/* Tablets */
+@media screen and (max-width: 889px) and (min-width: 501px) {
+  /* Header */
+  header {
+    justify-content: center;
+  }
+
+  header div {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   nav ul li a {
-    font-size: 1rem;
+    padding: 15px 7vw;
+  }
+
+  /* Product Photos Block */
+  .product-Photos img {
+    max-width: 50vw;
   }
 }
