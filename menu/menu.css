@@ -35,7 +35,7 @@ header a {
 header h1 {
   font-size: 4.5rem;
   color: #ffffff;
-  padding: 0rem 1.2rem;
+  padding: 0rem 0.5rem;
   text-shadow: red 1.5px 0 0, red 0 1.5px 0, red -1.5px 0 0, red 0 -1.5px 0;
 }
 
