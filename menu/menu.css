@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: #222222;
+  background-color: #000;
 }
 
 /* header */
@@ -82,7 +82,7 @@ td {
 
 table td:hover {
   color: red;
-  background-color: #444444;
+  background-color: #222222;
   transition: all 0.2s ease;
   border-radius: 15px;
 }
@@ -101,7 +101,6 @@ main .add-tax {
 /* footer */
 #madeSign {
   min-height: 5vh;
-  /* background-color: antiquewhite; */
   background-color: white;
   text-align: center;
   padding: 0.5rem;
