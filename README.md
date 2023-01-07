@@ -5,8 +5,8 @@ It is a cafe shop's website.
 This website is for those people who want to know how much the product costs and what products the shop has.
 
 3. Why did you decide to make this project?
-I often check the price of a restaurant or store on google map, but there are many small stores that don't have their own website, so it's hard to know the price. This includes the coffee shop where I now work myself.
-So I asked the lady boss if I could try out a simple website for them as my mid-term project.
+I often check the price of a restaurant or shop on google map or website, but there are many small shops don't have their own website. So it's hard to know the price. This includes the coffee shop where I work at.
+So I asked the boss if I could try to make a simple website for them as my mid-term project.
 
 4. What reference did you use?
 Photo > Pexels and Unsplash
